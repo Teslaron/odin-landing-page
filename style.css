@@ -11,19 +11,19 @@ body {
 }
 
 
-.header {
+.top {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex: 1 1 0;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: space-between;
 }
 
 .logo {
@@ -50,14 +50,14 @@ a {
     text-decoration: none;
 }
 
-.top-container {
+.hero-container {
     background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex: 1;
-    padding: 20px 15px;
-    margin-top: 20px;
+    max-width: 90vh;
+    margin: 20px 0;
+    gap: 20px
 }
 
 #t1 {
@@ -71,32 +71,59 @@ a {
     color: #E5E7EB;
 }
 
+#b1 {
+    margin-top: 10px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+}
+
 .top-img {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
-    border: 5px solid white;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 0;
+    align-items: center;
 }
 
 .info-heading {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 20px 0px;
 }
-.infos {
+.info-main {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
 }
 
 .info-img {
     max-width: 200px;
     height: auto;
-    border: 10px solid rgb(79, 79, 139);
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+
+.info-text {
+    max-width: 190px;
 }
 
 .quote-container {
@@ -105,7 +132,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    flex: 1 1 0;
 }
 
 .quote-text {
@@ -131,7 +158,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 5px;
-    flex: 0.5;
+    flex: 0.5 1 0;
 }
 
 .cta-box {
