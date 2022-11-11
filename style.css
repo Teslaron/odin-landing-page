@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
 
 body {
      font-family: 'Roboto', sans-serif;
      min-height: 100vh;
+     margin: 0;
+     padding: 0;
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
 }
 
 
 .header {
+    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
  }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
 ul {
 
@@ -24,22 +32,46 @@ li {
     list-style: none;
     padding: 0;
     margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .top-container {
+    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex: 1;
+    padding: 10px 15px;
+}
+
+#t1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#t2 {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .top-img {
     max-width: 300px;
     height: auto;
+    border: 5px solid white;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .info-heading {
@@ -48,24 +80,39 @@ li {
 }
 .infos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 
 .info-img {
     max-width: 200px;
     height: auto;
+    border: 10px solid rgb(79, 79, 139);
 }
 
 .quote-container {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    flex: auto;
+    padding: 5px;
+    max-width: 700px;
 }
 
 .cta-container {
     display: flex;
     justify-content: center;
     gap: 5px;
+    flex: 0.5;
 }
 
 .cta-box {
@@ -81,7 +128,13 @@ li {
 }
 
 .footer {
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-style: italic;
 }
