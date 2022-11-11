@@ -48,7 +48,7 @@ li {
 a {
     color: inherit;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 5px;
 }
 
 .hero-container {
@@ -79,9 +79,14 @@ a {
 #b1 {
     margin-top: 10px;
     background-color: #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #3882f6;
     color: #F9FAF8;
+    padding: 10px 0px;
+    font-weight: 900;
+}
+
+.button {
     padding: 10px 40px;
 }
 
@@ -197,10 +202,11 @@ a {
 
 #b2 {
     background-color: #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #F9FAF8;
     color: #F9FAF8;
-    padding: 5px 20px;
+    padding: 10px 0px;
+    font-weight: 900;
 }
 
 .footer {
