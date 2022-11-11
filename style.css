@@ -51,7 +51,6 @@ a {
 }
 
 .hero-container {
-    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,13 +163,28 @@ a {
 .cta-box {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 25px;
+    margin: 50px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta-text {
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 10px;
+    flex: 1 1 0;
+    color: #F9FAF8;
+}
+
+#b2 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    padding: 5px 20px;
 }
 
 .footer {
