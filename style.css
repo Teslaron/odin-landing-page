@@ -14,9 +14,17 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
- }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
 
 .logo {
     font-size: 24px;
@@ -48,7 +56,8 @@ a {
     align-items: center;
     justify-content: space-around;
     flex: 1;
-    padding: 10px 15px;
+    padding: 20px 15px;
+    margin-top: 20px;
 }
 
 #t1 {
@@ -95,17 +104,27 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex: 1;
 }
 
 .quote-text {
+    justify-content: center;
+    flex: initial;
+    padding: 5px;
+    max-width: 900px;
+}
+
+.quote-main {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
-    flex: auto;
-    padding: 5px;
-    max-width: 700px;
+}
+
+.quote-quote {
+    font-weight: 900;
+    text-align: end;
 }
 
 .cta-container {
