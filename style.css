@@ -2,4 +2,86 @@
 
 body {
      font-family: 'Roboto', sans-serif;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ul {
+
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-img {
+    max-width: 300px;
+    height: auto;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-heading {
+    display: flex;
+    justify-content: center;
+}
+.infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-img {
+    max-width: 200px;
+    height: auto;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
