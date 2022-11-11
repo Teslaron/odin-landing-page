@@ -3,7 +3,6 @@
 
 body {
      font-family: 'Roboto', sans-serif;
-     min-height: 100vh;
      margin: 0;
      padding: 0;
      display: flex;
@@ -18,6 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex: 1 1 0;
+    padding-bottom: 50px;
 }
 
 .header-container {
@@ -54,9 +54,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 90vh;
-    margin: 20px 0;
-    gap: 20px
+    flex-wrap: wrap;
+    padding-top: 50px;
+    max-width: 1500px;
+    gap: 50px
+}
+
+.hero-container-text {
+    max-width: 750px;
 }
 
 #t1 {
@@ -76,7 +81,7 @@ a {
     border-radius: 5px;
     border-color: #3882f6;
     color: #F9FAF8;
-    padding: 5px 20px;
+    padding: 10px 40px;
 }
 
 .top-img {
@@ -91,6 +96,8 @@ a {
     flex-direction: column;
     flex: 1 1 0;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 75px;
 }
 
 .info-heading {
@@ -103,8 +110,10 @@ a {
 }
 .info-main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+    row-gap: 25px;
 }
 
 .infos {
@@ -115,7 +124,7 @@ a {
 }
 
 .info-img {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
     border: 5px solid #3882f6;
     border-radius: 5px;
@@ -132,13 +141,14 @@ a {
     align-items: center;
     justify-content: center;
     flex: 1 1 0;
+    padding: 75px;
 }
 
 .quote-text {
     justify-content: center;
     flex: initial;
     padding: 5px;
-    max-width: 900px;
+    max-width: 800px;
 }
 
 .quote-main {
@@ -156,19 +166,19 @@ a {
 .cta-container {
     display: flex;
     justify-content: center;
-    gap: 5px;
     flex: 0.5 1 0;
+    padding: 25px;
 }
 
 .cta-box {
     display: flex;
-    justify-content: space-around;
-    padding: 25px;
+    padding: 30px 50px;
     margin: 50px;
     background-color: #3882f6;
     border-radius: 5px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 .cta-text {
@@ -177,6 +187,11 @@ a {
     padding: 10px;
     flex: 1 1 0;
     color: #F9FAF8;
+}
+
+#t3 {
+    font-weight: 900;
+    font-size: 20px;
 }
 
 #b2 {
@@ -191,7 +206,7 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 25px;
 }
 
 .footer-text {
